@@ -170,3 +170,34 @@ body{
     font-size: 14px;
     color: #fff;
 }
+
+
+/*-----------------------------------CONTENEDOR BOTON------------------------------------*/
+
+.contenedor-btn .abrir-cerrar-formulario {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 20px;
+    background-color: #0000ff;
+    color: #fff;
+    position: relative;
+    top: -25px;
+    z-index: 3;
+    border-radius: 100%;
+    box-shadow: -5px 4px 8px rgba(24, 56, 182, 0.4);
+    padding: 5px;
+    transition: all .2s ease;
+    border: none;
+    cursor: pointer;
+
+}
+
+.contenedor-btn .abrir-cerrar-formulario:hover {
+    background: #5555ff;
+
+}
+
+.contenedor-btn .abrir-cerrar-formulario.active{
+    transform: rotate(45deg);
+}
